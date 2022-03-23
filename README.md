@@ -17,7 +17,7 @@ Authentication is enabled which is very important as it improves security and al
 ### 7.Create and publish a pipeline
 ### 8.Documentation (Screencast)
 ### 9.Standout Suggestions
-
+### 10.Future Improvement Suggestions
 
 ## Authentication
 Security is enabled, and a service principle has been created and allowed access to the workspace.
@@ -85,3 +85,15 @@ Script can be found in script.md
 
 ## Standout Suggestions
 Some data preprocessing would help improve the performance of the models attained, and also hyperparameter tuning could be explored as an alternate approach, and both approaches should be compared.
+
+## Future Improvement Suggestions
+There is a need to solve the class imbalance problem. In a scenario where we cannot balance the classes, we will have to employ [techniques](https://towardsdatascience.com/class-imbalance-a-classification-headache-1939297ff4a4) such as up-sample
+minority class, down-sample majority class, generate synthetic samples, trying different algorithms and changing of the performance metric. With regards to
+changing the performance metrics, this [research paper](https://core.ac.uk/download/pdf/234677037.pdf) also shows the relation between a measure of performance in models and imbalanced datasets. It indicates that the weighted area under the curve (AUC-Weighted) would be a great metric to use.
+
+
+
+The links are respectively attributed to https://towardsdatascience.com/ and a pdf (Evaluation Measures for Models Assessment over Imbalanced Data Sets) by Mohamed Bekkar1, Dr.Hassiba Kheliouane Djemaa2, Dr.Taklit Akrouf Alitouche1
+ENSSEA, National School of Statistics and Applied Economics, Algiers, Algeria,
+EHEC, Ecole des Hautes Etudes Commerciales, Algiers, Algeria
+
