@@ -91,6 +91,7 @@ Benchmarking process was then initiated to load-test the endpoint.
 
 ## Future Improvement Suggestions
 Some data preprocessing would help improve the performance of the models attained. Also, hyperparameter tuning could be explored as an alternate approach, and both approaches should be compared.
+
 There is a need to solve the class imbalance problem. In a scenario where we cannot balance the classes, we will have to employ [techniques](https://towardsdatascience.com/class-imbalance-a-classification-headache-1939297ff4a4) such as up-sample
 minority class, down-sample majority class, generate synthetic samples, trying different algorithms and changing of the performance metric. With regards to
 changing the performance metrics, this [research paper](https://core.ac.uk/download/pdf/234677037.pdf) also shows the relation between a measure of performance in models and imbalanced datasets. It indicates that the weighted area under the curve (AUC-Weighted) would be a great metric to use.
