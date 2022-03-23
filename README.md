@@ -4,6 +4,7 @@ Azure was used to configure a cloud-based machine learning model using the bank 
 
 ## STRUCTURE
 Authentication.
+
 Automated ML Experiment.
 Deploy the best model
 Enable logging
