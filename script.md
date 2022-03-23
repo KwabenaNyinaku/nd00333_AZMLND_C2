@@ -1,5 +1,5 @@
 ## SCRIPT FOR SCREENCAST
-I uploaded the bankmarketing dataset from my local files, and configured a new cluster called kwabs233. 
+To begin with this project, I uploaded the bank marketing dataset from my local files and configured a new cluster called kwabs233. 
 After which, I created an automl experiment and run using classification and selected the label column "y".
 The best model was then deployed using the azure container instance. I then activated application insights,
 by specifying the deployed model name and running the script logs.py. THe swagger.json was then retrieved using
