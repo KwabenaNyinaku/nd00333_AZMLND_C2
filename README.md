@@ -8,9 +8,9 @@ Azure was used to configure a cloud-based machine learning model using the bank 
 Authentication is enabled which is very important as it improves security and allows for continuos flow. After an automl is run to derive the best model for the classification problem and later deployed using azure container instance(AcI). During the logging process, both logs are retrieved and application insights are enabled. With its unique scoring uri and key, the model endpoints are consumed using the interaction with the trained model occurs. Lastly a pipeline is created with the same dataset in the Azure SDk to be published and consumed.
 
 ## STRUCTURE
-1.Authentication
-2.Automated ML Experiment
-3.Deploy the best model
+### 1.Authentication
+### 2.Automated ML Experiment
+### 3.Deploy the best model
 4.Enable logging
 5.Swagger Documentation
 6.Consume model endpoints
