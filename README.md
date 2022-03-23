@@ -84,9 +84,13 @@ Watch screencast ([here](https://youtu.be/m_rG0q5dr90) ).
 Script can be found in script.md
 
 ## Standout Suggestions
-Some data preprocessing would help improve the performance of the models attained, and also hyperparameter tuning could be explored as an alternate approach, and both approaches should be compared.
+Acceptable performance measures are needed, to help improve effectiveness and efficiency. 
+Benchmarking process was then initiated to load-test the endpoint.
+![Screenshot (64)](https://user-images.githubusercontent.com/48255327/159786950-0742d255-d354-45d8-b1cc-8190dff401ee.png)
+
 
 ## Future Improvement Suggestions
+Some data preprocessing would help improve the performance of the models attained. Also, hyperparameter tuning could be explored as an alternate approach, and both approaches should be compared.
 There is a need to solve the class imbalance problem. In a scenario where we cannot balance the classes, we will have to employ [techniques](https://towardsdatascience.com/class-imbalance-a-classification-headache-1939297ff4a4) such as up-sample
 minority class, down-sample majority class, generate synthetic samples, trying different algorithms and changing of the performance metric. With regards to
 changing the performance metrics, this [research paper](https://core.ac.uk/download/pdf/234677037.pdf) also shows the relation between a measure of performance in models and imbalanced datasets. It indicates that the weighted area under the curve (AUC-Weighted) would be a great metric to use.
