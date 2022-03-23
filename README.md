@@ -83,3 +83,4 @@ Screenshot showing run:
 Screencast can be found ([here](https://youtu.be/m_rG0q5dr90) ). 
 
 ## Standout Suggestions
+Some data preprocessing would help improve the performance of the models attained and aslo hyperparameter tuning could be explored as an alternate approach and both approaches could be compared.
