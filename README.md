@@ -80,6 +80,6 @@ Screenshot showing run:
 ![Screenshot (53)](https://user-images.githubusercontent.com/48255327/159705286-8c678ab1-d50e-4363-87fa-f14daec1e906.png)
 
 ## Documentation (Screencast)
-[watch here]([here](https://youtu.be/m_rG0q5dr90) ) 
+Screencast can be found ([here](https://youtu.be/m_rG0q5dr90) ). 
 
 ## Standout Suggestions
